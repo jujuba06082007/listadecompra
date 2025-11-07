@@ -30,3 +30,20 @@ body {
     padding: 20px;
 }
 
+.container {
+    background-color: var(--cor-secundaria-1);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.titulo {
+    font-size: clamp(1.5rem, 2w + 1rem, 2rem);
+    color: var(--cor-primaria-1);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
